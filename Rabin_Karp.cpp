@@ -26,6 +26,8 @@ vi rabin_karp(string const &s, string const &t){
     if(curr_h==((h_s*p_pow[i])%m))
       occur.pb(i);
   }
+  
+  //https://codeforces.com/problemset/problem/271/D
 
   return occur;
 }
