@@ -27,7 +27,7 @@ vi rabin_karp(string const &s, string const &t){
       occur.pb(i);
   }
   
-  //https://codeforces.com/problemset/problem/271/D
-
   return occur;
 }
+
+//https://codeforces.com/problemset/problem/271/D
