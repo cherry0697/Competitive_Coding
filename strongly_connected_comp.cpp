@@ -85,7 +85,7 @@ void solve(){
 int main(){
   ios_base::sync_with_stdio(0); cin.tie(0);
   pre();
-  int t; cin>>t;
+  int t; t=1;
   rep(i,t) solve();
   return 0;
 }
