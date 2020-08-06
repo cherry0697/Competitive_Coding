@@ -10,7 +10,8 @@ void is_cutpoint(int v){
 
 void dfs(int v,int p){
   vis[v]=true;
-  tin[v]=low[v]=timer++;
+  timer++;
+  tin[v]=low[v]=timer;
   int children=0;
 
   for(auto to: adj[v]){
